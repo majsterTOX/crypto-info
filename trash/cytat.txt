@@ -1,0 +1,27 @@
+section.quote{
+    width: 1000px;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 28px;
+    font-family: 'Rubik', sans-serif;
+    padding: 15px;
+}
+section.quote::before, section.quote::after{
+    content:'"';
+    display: block;
+    font-size: 50px;
+    padding-top: 10px;
+}
+section.quote::before{
+    padding-right: 25px;
+}
+section.quote::after{
+    padding-left: 5px;
+}
+
+html
+					<section class = "chapter quote">
+						<div id="cytat">
+							Ilu znasz milionerów, którzy stali się bogaci poprzez inwestowanie na kontach oszczędnościowych? Nie mam nic więcej do dodania.  
+						</div>
+					</section>

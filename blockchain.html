@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset = "utf-8"/>
+        
+        <link rel="stylesheet" href="index.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">	
+
+		<title>CryptoBajt.com</title>
+	</head>
+	<body>
+		<main>
+			<header>
+				<div id="Start">
+
+					<div id="logo">
+						<img src="img/4.png" style="width: 1200px; height: 400px;"/>
+
+					</div>
+
+					<nav>
+						<ul class = "menu"> 
+							<li class = "kafelek"><a href="index.html" class="link">Informacje Ogólne</a></li>
+							<li class = "kafelek"><a href="blockchain.html" class="link">Blockchain</a></li>
+							<li class = "kafelek"><a href="rynekkryptowalut.html" class="link">Rynek kryptowalut</a></li>
+							<li class = "kafelek"><a href="typykryptowalut.html" class="link">Typy kryptowalut</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+			<article>
+				<div id = "content">
+
+					<section>
+						<div id="cytat">
+								<span class="tekstcytatu">Twój cel to handlować dobrze, a nie często</span>
+								<span class="author">Alexander Elder</span>
+						</div>
+					</section>
+
+					<span class="line"></span>
+
+					<!--
+						Zadania
+
+						1) w miejscu
+							<div class = "image">
+								<img src = "img/1.jpg" alt="Bitcoin" style="width: 500px; height: 300px;"/>
+							</div>
+
+						należy zmieniać wymiary zdjęć, oczywiście w każdym z tych 3, czyli parametr width i height.
+						Zdjecia nazwiesz sobie dowolnie
+
+						2) Gdy margin nie będzie się podobał, w index.css w selektorze .image zmienisz właściwość margin
+						.image{
+   							 margin-top: 50px;
+   							 margin-left:50px;
+  							 float: left;
+							}
+						Jeśli chcesz zrobić na odwrót zdjęcie z tekstem dodaj w znaczniku img style="float:right" i wtedy też na odwrót jest margin
+
+						3) 	W index.html usunać  div previous
+						W typykryptowalut.html usunąć div next
+
+						W dalszej części dokomentu masz flagi, gdzie mają pojawić się modyfikację
+
+						4) Moim zdaniem zrób coś z tekstem żeby tam były słowa kluczowe bo jest oczopląs :)
+							tu masz takiego prowizorycznego spana
+
+							<span class="haslo">słowo kluczowe</span>
+							span.haslo{
+								color: red;
+							}
+
+							W razie pytań pisz messenger
+						-->
+
+
+
+					<section class = "chapter">
+
+							<div class="paragraph">
+
+								<h1 class = "title">Technologia Blockchain</h1>
+
+								Blockchain to baza danych o zdecentralizowanym i rozproszonym charakterze. Składa się ona z węzłów, które są odpowiedzialne za aktualizację historii transakcji. Ta sytuacja prowadzi do tego, że in sieć jest większa tym jest bardziej zdecentralizowana. Jak sama nazwa wskazuje, blockchain to łańcuch następujących po sobie w określonym czasie bloków, które zawierają konkretne informacje, np. rejestr transakcji.
+							</div>
+					
+							<!--1-->
+							<div class = "image">
+								<img src = "img/6.png" alt="Bitcoin" style="width: 600px; height: 400px;"/>
+							</div>
+						
+							<div style="clear:both;"></div>
+							
+							<div class="under">
+								Każdy blok jest zabezpieczony kryptograficznie za pomocą hasha, czyli funkcji hashującej, zwanej inaczej kryptograficzną funkcją skrótu. Funkcja hashująca sprawia, że dane zawarte w bloku są zabezpieczone przed modyfikacjami, bo jeśli dojdzie do jakichkolwiek zmian w konkretnym bloku, zmieni się również jego hash.
+							</div>
+					</section>
+
+					<section class = "chapter">
+
+						<div class="paragraph" style="float: right; margin-right: 90px;">
+
+						
+
+						Co więcej, nie bez powodu blockchain przyjął strukturę łańcucha - każdy blok transakcyjny oprócz własnego hasha zawiera również funkcję hashującą poprzedniego bloku, co przy jakiejkolwiek próbie manipulacji danymi w starszym bloku zmieni hash i doprowadzi do niezgodności z kolejnymi blokami. Dzięki temu, z teoretycznego punktu widzenia, dane zapisane na blockchainie są niezmienne i nieodwracalne, natomiast sama zdecentralizowana struktura zapewnia bezpieczeństwo przechowywanych danych i pozwala na funkcjonowanie bez zaufanych pośredników. Oprócz tego sieć blockchain kryptowaluty musi być otwarta i publiczna (każdy może prześledzić rejestr transakcji).
+						</div>
+							<!--1-->		
+							<div class = "image1">
+								<img src = "img/5.png" style="width: 700px; height: 400px; float: right;" alt="Bitcoin"/>
+							</div>
+
+						<div style="clear:both;"></div>
+
+							<div class="under">
+								Dla przykładu: w sieci Bitcoina bloki mają maksymalną pojemność 1 MB i następują po sobie średnio co 10 minut. Pierwszym praktycznym zastosowaniem technologii blockchain był właśnie bitcoin (działający od początku 2009 r.), natomiast sama koncepcja łańcucha bloków istnieje od początku lat 90. i miała pierwotnie służyć do zapisywania dokumentów i zapewniania ich niezmienności Należy jednak pamiętać, że nie ma znaku równości pomiędzy blockchainem a kryptowalutami. Blockchain to tylko narzędzie, rodzaj zdecentralizowanej bazy danych, która przy okazji wykorzystywana jest przez większość kryptowalut. Wiele znanych korporacji technologicznych i finansowych prowadzi programy wykorzystujące technologię blockchain dla swoich potrzeb. Są to jednak sieci prywatne, które kompletnie nie mają nic wspólnego z kryptowalutami.
+							</div>
+
+					</section>
+					
+
+					<!--3-->
+					<section class = "chapter last">
+
+						
+						<div class="previous">
+							<a href="index.html"> << Poprzedni rozdział</a>
+						</div>
+						
+
+						<div class="next">
+							<a href="rynekkryptowalut.html">Następny rozdział >></a>
+						</div>
+
+					</section>
+				</div>
+				
+			</article>
+
+			<footer>
+
+				<div id="textcryptofooter">
+					CryptoBajt.com 2020
+				</div>
+
+				<div id="KZLimage">
+					<img src = "img/kzl.png" alt="KZL" style="width: 100px; height: 100px; "/>
+				</div>
+
+				<div id = "podpis">
+					Jakub Muszka 2Tip
+				</div>
+
+				<div style="clear:both;"></div>
+
+			</footer>
+
+		</main>
+	</body>
+</html>

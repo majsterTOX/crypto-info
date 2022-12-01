@@ -1,0 +1,21 @@
+						1) w miejscu
+							<div class = "image">
+								<img src = "img/1.jpg" alt="Bitcoin" style="width: 500px; height: 300px;"/>
+							</div>
+
+						należy zmieniać wymiary zdjęć, oczywiście w każdym z tych 3, czyli parametr width i height.
+						Zdjecia nazwiesz sobie dowolnie
+
+						2) Gdy margin nie będzie się podobał, w index.css w selektorze .image zmienisz właściwość margin
+						.image{
+   							 margin-top: 50px;
+   							 margin-left:50px;
+  							 float: left;
+							}
+						Jeśli chcesz zrobić na odwrót zdjęcie z tekstem dodaj w znaczniku img style="float:right" i wtedy też na odwrót jest margin
+
+						3) 	W index.html usunać  div previous
+						W typykryptowalut.html usunąć div next
+
+						W dalszej części dokomentu masz flagi, gdzie mają pojawić się modyfikację
+						W razie pytań pisz messenger

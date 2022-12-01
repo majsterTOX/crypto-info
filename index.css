@@ -1,0 +1,240 @@
+body{
+    background: #262626;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #f1f1f1;
+    margin: 0;
+}
+#Start{
+    position: relative;
+    width: 1500px;
+    height: 500px;
+    font-family: 'Lato', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    position: absolute;
+    width: 1200px;
+    height: 400px;
+    left: 150px;
+    right: 150px;
+}
+nav{
+    position: absolute;
+    background:#1157F9;
+    height: 70px;
+    width: 1500px;
+    bottom: 10px;
+}
+ul.menu{
+    width: 1200px;
+    height: 50px;
+    margin: 10px auto;
+    padding:0;
+}
+li.kafelek{
+    display: inline-block;
+    height: 50px;
+    margin-right: 10px;
+    box-sizing:border-box;
+    padding: 2.5px 10px 7.5px 10px;
+
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+}
+li.kafelek:hover{
+    cursor: pointer;
+    background: #0d48d3;
+}
+a.link{
+    text-decoration: none;
+    color: #f0e4e4;
+}
+
+#content{
+    width: 1500px;
+    margin: 75px auto 50px auto;
+    padding: 30px 15px 0px 15px;
+    box-sizing: border-box;
+    background: #121212;
+    -webkit-box-shadow: 5px 5px 49px 6px rgba(0,0,0,0.19); 
+    box-shadow: 5px 5px 49px 6px rgba(0,0,0,0.19);
+}
+#cytat{
+    position: relative;
+    width: 1200px;
+    height: 60px;
+    margin: 10px auto;
+    padding: 5px;
+    box-sizing: border-box;
+
+    font-size: 38px;
+    font-family: Playball;
+    text-align: center;
+}
+span.tekstcytatu{
+    display: block;
+    position:absolute;
+    bottom:0;
+    left: 30px;
+    width: 700px;
+}
+span.author{
+    display: block;
+    position:absolute;
+    bottom:0;
+    right:0px;
+
+    width: 300px;
+    font-size: 30px;
+}
+span.author::before{
+    position: absolute;
+    content: '~';
+    width: 25px;
+    height: 30px;
+
+    bottom: 3px;
+    right: 275px;
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+span.line{
+    display: block;
+    width: 1300px;
+    height: 2px;
+    margin: 10px auto;
+    background: #f1f1f1;
+}
+.paragraph{
+    float:left;
+    padding: 5px;
+    box-sizing: border-box;
+    max-width: 600px;
+    font-size:35px;
+    font-weight: 225;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 38px;
+    text-align: justify;
+}
+/*/////////////*/
+/* ///// 2 //////*/
+/*/////////////*/
+.image{
+    margin-top: 50px;
+    margin-left:50px;
+    float: left;
+}
+.under{
+    margin-left: 20px;
+    width: 1350px;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 225;
+    line-height: 40px;
+}
+h1.title{
+    margin: 5px 0px 20px 0px;
+    padding:0;
+
+    color: #245ad8;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+section.last{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    margin-top: 30px;
+    height: 40px;
+    border: none;
+}
+.previous{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.previous a{
+    text-decoration: none;
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 26px;
+}
+.next{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.next a{
+    text-decoration: none;
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 26px;
+}
+.next a:hover,.previous a:hover{
+    text-decoration:underline;
+}
+footer{
+    width: 100%;
+    background: #0a0a0a;
+    height: 140px;
+    position: relative;
+}
+#textcryptofooter{
+    float: left;
+
+    padding-left: 20px;
+    padding-top: 50px;
+    margin-right: 30%;
+
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+}
+#KZLimage{
+    margin-right: 30%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#podpis{
+    float: left;
+    padding-top: 50px;
+    padding-right: 10px;
+    font-size: 40px;
+    font-family: 'Yellowtail', cursive;
+}
+.image1{
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-left:50px;
+    float: left;
+}
+.image2{
+    padding-top: 75px;
+    margin-top: 50px;
+    margin-left:50px;
+    float: left;
+}
+.image3{
+    padding-top: 25px;
+    margin-top: 50px;
+    margin-left:50px;
+    float: left;
+}
+.image4{
+    padding-top: 150px;
+    margin-top: 50px;
+    margin-left:50px;
+    float: left;
+}

@@ -1,0 +1,4 @@
+1. Canva grafik do sekcji oferta
+2. Przeróbka menu na ul
+3. Sekcja menu + zdj wstępne = 100vh
+4. Kwestia zdjęć - czy mają być czy nie, raczej nie.
